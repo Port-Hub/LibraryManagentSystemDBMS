@@ -11,11 +11,11 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="background" stylesheets="@loginPage.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="background" stylesheets="@Styling/loginPage.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="339.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" styleClass="background-pattern">
          <image>
-            <Image url="@login-page-design.png" />
+            <Image url="@images/login-page-design.png" />
          </image>
       </ImageView>
       <AnchorPane layoutX="302.0" layoutY="125.0" prefHeight="451.0" prefWidth="397.0" style="-fx-background-color: #36454; -fx-border-radius: 30mm;" styleClass="container">

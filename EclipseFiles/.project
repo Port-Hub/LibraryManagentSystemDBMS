@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>LibraryManagementSystem</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/pages/AdminLogin.fxml</name>
+			<type>1</type>
+			<location>D:/College/sem4/dbms-mini-project/AdminLoginPage/login.fxml</location>
+		</link>
+		<link>
+			<name>src/pages/Styling/loginPage.css</name>
+			<type>1</type>
+			<location>D:/College/sem4/dbms-mini-project/AdminLoginPage/loginPage.css</location>
+		</link>
+		<link>
+			<name>src/pages/images/login-page-design.png</name>
+			<type>1</type>
+			<location>D:/College/sem4/dbms-mini-project/AdminLoginPage/login-page-design.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>
