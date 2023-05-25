@@ -13,7 +13,7 @@ public class DBUtil {
 			{
 						Class.forName("com.mysql.jdbc.Driver");  
 			   			 con=DriverManager.getConnection(  
-			   			"jdbc:mysql://localhost:3306/db1","root","Arul#1234");
+			   			"jdbc:mysql://localhost:3306/Library","root","Arul#1234");
 			}
 					catch(Exception e)
 					{
