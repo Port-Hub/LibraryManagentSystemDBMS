@@ -13,13 +13,13 @@ public class Main extends Application {
  
 	public void start(Stage primaryStage){
 		try {		
-			Parent root = (Parent) FXMLLoader.load(getClass().getResource("pages/fxmlFiles/AdminLogin.fxml"));
+			Parent root = (Parent) FXMLLoader.load(getClass().getResource("AdminLogin.fxml"));
 			Scene scene = new Scene(root);
 			
 			primaryStage.setScene(scene);
 			primaryStage.setResizable(false);
 			primaryStage.setTitle("Library Management System");
-			primaryStage.getIcons().add(new Image("D:\\College\\sem4\\dbms-mini-project\\AdminLoginPage\\login-page-design.png"));
+			//primaryStage.getIcons().add(new Image("D:\\College\\sem4\\dbms-mini-project\\AdminLoginPage\\login-page-design.png"));
 			
 			
 			primaryStage.show();

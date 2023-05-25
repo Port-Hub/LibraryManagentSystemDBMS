@@ -18,7 +18,7 @@
             <Image url="@images/login-page-design.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="302.0" layoutY="125.0" prefHeight="451.0" prefWidth="397.0" style="-fx-background-color: #36454; -fx-border-radius: 30mm;" styleClass="container">
+      <AnchorPane layoutX="302.0" layoutY="125.0" prefHeight="451.0" prefWidth="397.0" styleClass="container" stylesheets="@Styling/loginPage.css">
          <children>
             <GridPane hgap="5.0" layoutX="50.0" layoutY="136.0" prefHeight="118.0" prefWidth="297.0" vgap="15.0">
               <columnConstraints>
@@ -37,8 +37,8 @@
                   <TextField prefHeight="96.0" prefWidth="297.0" promptText="Password" GridPane.rowIndex="1" />
                </children>
             </GridPane>
-            <Label layoutX="100.0" layoutY="42.0" prefHeight="61.0" prefWidth="197.0" styleClass="Welcome-label" stylesheets="@loginPage.css" text="Welcome" textFill="WHITE" />
-            <Button layoutX="110.0" layoutY="333.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="177.0" styleClass="Login-button" stylesheets="@loginPage.css" text="Login" textFill="WHITE" />
+            <Label layoutX="100.0" layoutY="42.0" prefHeight="61.0" prefWidth="197.0" styleClass="Welcome-label" stylesheets="@Styling/loginPage.css" text="Welcome" textFill="WHITE" />
+            <Button layoutX="110.0" layoutY="333.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="177.0" styleClass="Login-button" stylesheets="@Styling/loginPage.css" text="Login" textFill="WHITE" />
             <Label layoutX="36.0" layoutY="277.0" prefHeight="35.0" prefWidth="327.0" textFill="RED" />
          </children>
       </AnchorPane>

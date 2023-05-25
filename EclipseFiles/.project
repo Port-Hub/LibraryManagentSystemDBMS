@@ -20,16 +20,4 @@
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/pages/Styling/loginPage.css</name>
-			<type>1</type>
-			<location>D:/College/sem4/dbms-mini-project/AdminLoginPage/loginPage.css</location>
-		</link>
-		<link>
-			<name>src/pages/images/login-page-design.png</name>
-			<type>1</type>
-			<location>D:/College/sem4/dbms-mini-project/AdminLoginPage/login-page-design.png</location>
-		</link>
-	</linkedResources>
 </projectDescription>

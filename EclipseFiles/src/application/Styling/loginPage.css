@@ -3,13 +3,12 @@
 }
 
 .background-pattern{
-   -fx-background-image: url(D:/College/sem4/dbms--project/login-page-design.png);
+   -fx-background-image: url(D:\College\Semesters\sem4\dbms-mini-project\LibraryManagentSystemDBMS\EclipseFiles\src\application\images/login-page-design.png);
    -fx-opacity: 30%;
 }
 
 .container{
    -fx-background-color: #36454f;
-   -fx-box-shadow: 20px 20px 30px 12px black;
    -fx-border-radius: 15px;
 }
 
