@@ -9,11 +9,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 
+
 public class Main extends Application {
  
 	public void start(Stage primaryStage){
 		try {		
-			Parent root = (Parent) FXMLLoader.load(getClass().getResource("AdminLogin.fxml"));
+			Parent root = (Parent) FXMLLoader.load(getClass().getResource("homepage.fxml"));
 			Scene scene = new Scene(root);
 			
 			primaryStage.setScene(scene);

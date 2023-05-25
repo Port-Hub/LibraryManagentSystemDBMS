@@ -38,7 +38,7 @@
                </children>
             </GridPane>
             <Label layoutX="100.0" layoutY="42.0" prefHeight="61.0" prefWidth="197.0" styleClass="Welcome-label" stylesheets="@Styling/loginPage.css" text="Welcome" textFill="WHITE" />
-            <Button layoutX="110.0" layoutY="288.0" mnemonicParsing="false" onAction="#switchToAdminPage" prefHeight="51.0" prefWidth="177.0" styleClass="Login-button" stylesheets="@Styling/loginPage.css" text="Login" textFill="WHITE" />
+            <Button layoutX="110.0" layoutY="288.0" mnemonicParsing="false" onAction="#switchToStudentPage" prefHeight="51.0" prefWidth="177.0" styleClass="Login-button" stylesheets="@Styling/loginPage.css" text="Login" textFill="WHITE" />
             <Button layoutX="110.0" layoutY="359.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="51.0" prefWidth="177.0" styleClass="back-Button" stylesheets="@Styling/loginPage.css" text="Back" textFill="WHITE" />
          </children>
       </AnchorPane>

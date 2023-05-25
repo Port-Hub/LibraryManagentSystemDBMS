@@ -19,7 +19,13 @@
 }
 
 .Login-button{
-   -fx-background-color: #0E8388;
+   -fx-background-color: #03C988;
+   -fx-font-family: Arial, Helvetica, sans-serif;
+   -fx-font-weight: 900;
+}
+
+.back-Button{
+   -fx-background-color: #DC143C;
    -fx-font-family: Arial, Helvetica, sans-serif;
    -fx-font-weight: 900;
 }

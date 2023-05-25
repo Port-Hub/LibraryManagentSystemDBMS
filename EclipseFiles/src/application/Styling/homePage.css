@@ -1,0 +1,29 @@
+.root{
+    -fx-background-color: #27323A;
+ }
+ 
+ .background-pattern{
+    -fx-background-image: url(D:\College\Semesters\sem4\dbms-mini-project\LibraryManagentSystemDBMS\EclipseFiles\src\application\images/login-page-design.png);
+    -fx-opacity: 25%;
+ }
+ 
+ .subTitle{
+    -fx-font-family: Georgia, Helvetica, sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: light;
+ }
+ 
+ .Title{
+    -fx-font-family: Georgia, Helvetica, sans-serif;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+ }
+ 
+ .button{
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-background-color: #03C988;
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-font-weight: 900;
+    -fx-font-size: 20px;
+ }
